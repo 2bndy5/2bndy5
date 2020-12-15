@@ -1,5 +1,6 @@
 [![2bndy5's github stats](https://github-readme-stats.vercel.app/api?username=2bndy5&show_icons=true&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2bndy5&layout=compact&langs_count=6&hide=pawn&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![RF24 revamped](https://github-readme-stats.vercel.app/api/pin/?username=2bndy5&repo=RF24&theme=chartreuse-dark)](https://github.com/2bndy5/RF24/tree/revamp)
 
 <!--
 [![2bndy5's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=2bndy5&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
