@@ -1,0 +1,24 @@
+version: "2"
+words:
+  - cplusplus
+  - Doherty
+  - nushell
+  - SICMAKE
+  - SICPLUSPLUS
+  - SICSS
+  - SIDART
+  - SIFLUTTER
+  - SIGIT
+  - SIGITHUB
+  - SIGITLAB
+  - SIHTML
+  - SIJAVASCRIPT
+  - SILUA
+  - simpleicons
+  - SINUSHELL
+  - SIPYTHON
+  - SIRUST
+  - SISASS
+  - SITYPESCRIPT
+ignore-paths:
+  - "*.lock"

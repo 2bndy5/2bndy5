@@ -1,0 +1,8 @@
+[package]
+name = "badge-gen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+shields = "1.1.1"
+simpleicons-rs = "15.12.0"
