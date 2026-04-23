@@ -2,9 +2,9 @@ use std::fs;
 
 use shields::BadgeStyle;
 use shields::builder::Badge;
-use simpleicons_rs::{
-    SIC, SICMAKE, SICPLUSPLUS, SICSS, SIDART, SIFLUTTER, SIGIT, SIGITHUB, SIGITLAB, SIHTML5,
-    SIJAVASCRIPT, SILUA, SINUSHELL, SIPYTHON, SIRUST, SISASS, SITYPESCRIPT,
+use simple_icons_pack::{
+    SI_C, SI_CMAKE, SI_CPLUSPLUS, SI_CSS, SI_DART, SI_FLUTTER, SI_GIT, SI_GITHUB, SI_GITLAB,
+    SI_HTML5, SI_JAVASCRIPT, SI_LUA, SI_NUSHELL, SI_PYTHON, SI_RUST, SI_SASS, SI_TYPESCRIPT,
 };
 
 fn invert_color(input: &str) -> String {
@@ -41,21 +41,21 @@ fn main() {
         fs::create_dir("assets").unwrap();
     }
     let brands = [
-        SIC,
-        SICPLUSPLUS,
-        SICSS,
-        SIDART,
-        SINUSHELL,
-        SICMAKE,
-        SIFLUTTER,
-        SIHTML5,
-        SIGIT,
-        SIJAVASCRIPT,
-        SILUA,
-        SIPYTHON,
-        SIRUST,
-        SISASS,
-        SITYPESCRIPT,
+        SI_C,
+        SI_CPLUSPLUS,
+        SI_CSS,
+        SI_DART,
+        SI_NUSHELL,
+        SI_CMAKE,
+        SI_FLUTTER,
+        SI_HTML5,
+        SI_GIT,
+        SI_JAVASCRIPT,
+        SI_LUA,
+        SI_PYTHON,
+        SI_RUST,
+        SI_SASS,
+        SI_TYPESCRIPT,
     ];
     for brand in brands {
         let inverted_color = invert_color(brand.hex);
@@ -84,7 +84,7 @@ fn main() {
     fs::write(format!("assets/{}.svg", msg_lower), svg).unwrap();
     println!("Generated badge for {}", msg_lower);
 
-    let (message, icon) = ("GitHub Actions", SIGITHUB);
+    let (message, icon) = ("GitHub Actions", SI_GITHUB);
     let slug = message.to_lowercase();
     let logo = icon.svg.replace(
         " xmlns=",
@@ -99,7 +99,7 @@ fn main() {
     fs::write(format!("assets/{}.svg", slug), svg).unwrap();
     println!("Generated badge for {}", slug);
 
-    let (message, icon) = ("GitLab Pipelines", SIGITLAB);
+    let (message, icon) = ("GitLab Pipelines", SI_GITLAB);
     let slug = message.to_lowercase();
     let logo = icon.svg.replace(
         " xmlns=",
