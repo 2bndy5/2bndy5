@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 shields = "1.1.1"
-simpleicons-rs = "15.12.0"
+simple-icons-pack = "16.17.0"
